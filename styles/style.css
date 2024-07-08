@@ -101,3 +101,84 @@ nav > ul > li > a{
     border: 2px solid rgb(253, 110, 10) ;
     margin-left: 30px;
 }
+
+/* About-me section starts here */
+.about-me-container{
+    max-width: 1140px;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 140px auto;
+    border-radius: 5px;
+}
+.about-me-section > h3, .what-i-do-title{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+.about-me-section > p, .what-i-do-description{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.about-section-item{
+    display: flex;
+}
+.about-me-content{
+    padding: 30px;
+}
+.about-me-content .about-title,.about-description{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.about-title{
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+}
+.about-description{
+    color: rgb(71, 71, 71);
+    font-weight: 700;
+}
+
+
+/* What-I-do-section starts here */
+.what-i-do-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.what-i-do-description{
+   width: 80%;
+   
+}
+
+.what-i-do-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-item{
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
