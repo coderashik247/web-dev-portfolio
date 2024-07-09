@@ -56,6 +56,9 @@ nav > ul > li > a{
     border-radius: 5px;
     background: rgb(253, 110, 10);
     border: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
 }
 
 .header-part{
@@ -113,7 +116,7 @@ nav > ul > li > a{
     margin: 140px auto;
     border-radius: 5px;
 }
-.about-me-section > h3, .what-i-do-title{
+.about-me-section > h3, .what-i-do-title, .resume-title{
     color: rgb(24, 24, 24);
     font-size: 35px;
     font-weight: 700;
@@ -121,7 +124,7 @@ nav > ul > li > a{
     text-align: center;
 }
 
-.about-me-section > p, .what-i-do-description{
+.about-me-section > p, .what-i-do-description {
     color: rgb(117, 117, 117);
     font-size: 18px;
     font-weight: 400;
@@ -161,11 +164,12 @@ nav > ul > li > a{
     justify-content: center;
     align-items: center;
     flex-direction: column; 
+    margin-bottom: 170px;
 }
 
 .what-i-do-description{
    width: 80%;
-   
+
 }
 
 .what-i-do-skill{
@@ -176,9 +180,117 @@ nav > ul > li > a{
 .skill-item{
     /* border: 2px solid red; */
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 24px;
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+
+}
+.skill-item h4{
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.skill-item p{
     background: rgb(255, 255, 255);
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Resume section here */
+.resume-section{
+    max-width: 1140px;
+    padding-left: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column;  */
+}
+.resume-education > h3, .resume-experience > h3{
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+}
+.resume-section h5{
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    margin: 35px 0 15px 0;
+}
+.resume-section h6{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 10px 0;
+}
+.resume-section p{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 85%;
+    margin-top: 25px;
+}
+hr{
+    margin-right: 50px;
+    margin-top: 25px;
+}
+.cv-button{
+    margin: 50px 0px 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    padding: 130px 325px;
+    gap: 90px;
+}
+.section-box-title{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], input[type="email"], textarea{
+    width: 461px;
+    height: 64px;
+    margin-top:24px ;
+}
+.box{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 20px;
+}
+textarea{
+    width: 461px;
+    height: 180px;
+    margin-bottom: 24px;
+}
+.section-box-discription{
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.picture{
+    width: 30px;
+    height: 20px;
 }
